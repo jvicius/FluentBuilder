@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\PizzaFluentBuilder.cs" />
+    <Compile Include="Models\Pizza.cs" />
+    <Compile Include="Models\TamañoEnum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
